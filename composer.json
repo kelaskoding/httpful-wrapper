@@ -1,0 +1,19 @@
+{
+    "name": "kelaskoding/httpfulwrapper",
+    "description": "A Wrapper class for httpful library to make it easy to use",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hendro Steven",
+            "email": "hendro.steven@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"kelaskoding\\httpfulwrapper\\": "src/"}
+    },
+    "require": {
+        "nategood/httpful": "dev-master"
+    }
+}
